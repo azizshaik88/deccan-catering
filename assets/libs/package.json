@@ -1,0 +1,27 @@
+{
+  "name": "deccan-catering",
+  "version": "1.0.0",
+  "description": "Deccan Catering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizshaik88/deccan-catering.git"
+  },
+  "author": "Aziz Shaik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azizshaik88/deccan-catering/issues"
+  },
+  "homepage": "https://github.com/azizshaik88/deccan-catering#readme",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "browserify": "^13.0.0",
+    "jquery": "^2.2.3",
+    "requirejs": "^2.2.0"
+  }
+}
