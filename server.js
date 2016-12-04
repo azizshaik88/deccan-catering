@@ -7,6 +7,7 @@ var express = require('express'),
     bodyParser = require('body-parser');
 
 
+var port = process.env.PORT || 3000;
 
 //environment variable to determine whether in dev or prod mode
 var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
@@ -61,6 +62,6 @@ app.get('*', function(req, res) {
 
 
 //start listening for requests
-var port = 3030;
+//var port = 3030;
 app.listen(port);
 console.log('Listening on port ' + port + '...');
