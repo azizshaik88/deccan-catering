@@ -1,12 +1,14 @@
 .logo {
-  width: 25%;
-  height: 25%;
+  width: 65%;
 }
 .logo-container {
   background-color: #000;
 }
 body {
-  padding-top: 170px;
+  padding-top: 120px;
+}
+h2 {
+  font-weight: bold;
 }
 .content-filler {
   min-height: 700px;

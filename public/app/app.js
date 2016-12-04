@@ -21,10 +21,10 @@ app.config(function($stateProvider, $urlRouterProvider){
             templateUrl:'/app/components/main/intro.html'
         })
     
-        .state('main.breakfast', {
-            url:'/breakfast',
-            templateUrl:'/app/components/breakfast/breakfast-main.html'
-        })
+//        .state('main.breakfast', {
+//            url:'/breakfast',
+//            templateUrl:'/app/components/breakfast/breakfast-main.html'
+//        })
     
         .state('main.lunch', {
             url:'/lunch',
@@ -34,5 +34,15 @@ app.config(function($stateProvider, $urlRouterProvider){
         .state('main.dinner', {
             url:'/dinner',
             templateUrl:'/app/components/dinner/dinner-main.html'
+        })
+    
+        .state('main.contact', {
+            url:'/contact',
+            templateUrl:'/app/components/main/contact-us.html'
+        })
+    
+        .state('main.about', {
+            url:'/aboutus',
+            templateUrl:'/app/components/main/about-us.html'
         });
 });
