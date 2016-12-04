@@ -27,7 +27,7 @@ html
                     #bs-example-navbar-collapse-1.collapse.navbar-collapse
                         ul.nav.navbar-nav.navbar-right
                             li
-                                    a(ui-sref='main.intro') Main
+                                    a(ui-sref='main.intro' data-toggle='collapse' data-target='.navbar-collapse') Main
                             li.dropdown
                                 a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                     | Menu 
@@ -37,15 +37,15 @@ html
                                      #a(ui-sref='main.breakfast')
                                      #Breakfast
                                     li
-                                        a(ui-sref='main.lunch') Lunch
+                                        a(ui-sref='main.lunch' data-toggle='collapse' data-target='.navbar-collapse') Lunch
                                     li
-                                        a(ui-sref='main.dinner') Dinner
+                                        a(ui-sref='main.dinner' data-toggle='collapse' data-target='.navbar-collapse') Dinner
                                     #li.divider(role='separator')
                                     #li
                                         #a(href='#') 
                                         #Misc.
                                 li
-                                    a(ui-sref='main.contact') Contact Us
+                                    a(ui-sref='main.contact' data-toggle='collapse' data-target='.navbar-collapse') Contact Us
                                     
                                 li
-                                    a(ui-sref='main.about') About Us
+                                    a(ui-sref='main.about' data-toggle='collapse' data-target='.navbar-collapse') About Us
